@@ -1,0 +1,9 @@
+
+# The requirements.txt file is used in Python projects to list all the external libraries (dependencies) that your project needs to run.
+
+
+
+requests
+schedule
+mysql-connector-python
+rich

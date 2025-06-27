@@ -2,12 +2,15 @@ import requests
 from time import sleep
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+    "User-Agent": "...",
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://www.nseindia.com/",
+    "Referer": "https://www.nseindia.com/option-chain",
     "Connection": "keep-alive",
     "Origin": "https://www.nseindia.com",
+    "sec-ch-ua": '"Google Chrome";v="115", "Chromium";v="115", "Not)A;Brand";v="24"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "Windows",
 }
 
 def fetch_nifty_oi():

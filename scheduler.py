@@ -1,6 +1,6 @@
 import schedule
 import time
-from oi_fetcher import fetch_nifty_oi
+from fetch_nse_data import fetch_nse_option_chain as fetch_nifty_oi
 from db_handler import insert_oi_data
 from rich.console import Console
 from rich.table import Table
